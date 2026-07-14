@@ -1,0 +1,7 @@
+# Keep generated archives and Windows binaries out of textual diffs.
+*.zip binary
+*.exe binary
+*.dll binary
+
+# This encoded executable is intentionally stored as one long line.
+artifacts/windows/encoded/LHF_x64.exe_B64.txt binary
